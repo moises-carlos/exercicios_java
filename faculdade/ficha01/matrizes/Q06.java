@@ -1,4 +1,4 @@
-package matriz;
+package matrizes;
 
 public class Q06 {
 
