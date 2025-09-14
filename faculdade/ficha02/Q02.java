@@ -43,6 +43,5 @@ public class Q02 {
         int[] contagemVotos = contarVotos(votos);
         System.out.println();
         vencedor(contagemVotos);
-
     }
 }
