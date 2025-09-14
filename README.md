@@ -7,10 +7,7 @@ Repositório destinado à prática e organização de exercícios desenvolvidos 
 ## 📌 Sumário
 - [Sobre](#sobre)
 - [Estrutura do Repositório](#estrutura-do-repositório)
-- [Como Rodar os Exercícios](#como-rodar-os-exercícios)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Contribuições](#contribuições)
-- [Licença](#licença)
+
 
 ---
 
