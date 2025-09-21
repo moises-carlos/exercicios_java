@@ -1,0 +1,13 @@
+# Arquivos compilados
+out/
+build/
+target/
+*.class
+
+# Configurações do IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Arquivos de log
+*.log
