@@ -41,31 +41,34 @@ public class Q10 {
     }
 
 
-    static void main() {
-        int[][] mapa = new int[10][10];
-        mapa[2][2] = 1;
-        mapa[5][5] = 9;
-        mapa[0][0] = 1;
-        mapa[9][9] = 1;
+    public static void main(String[] args) {
 
-        for (int i = 0; i < mapa.length; i++) {
-            for (int j = 0; j < mapa[i].length; j++) {
-                System.out.print(mapa[i][j] + " ");
+        {
+            int[][] mapa = new int[10][10];
+            mapa[2][2] = 1;
+            mapa[5][5] = 9;
+            mapa[0][0] = 1;
+            mapa[9][9] = 1;
+
+            for (int i = 0; i < mapa.length; i++) {
+                for (int j = 0; j < mapa[i].length; j++) {
+                    System.out.print(mapa[i][j] + " ");
+                }
+                System.out.println();
             }
+
             System.out.println();
-        }
 
-        System.out.println();
-
-        int inimigosComuns = contarInimigos(mapa);
-        System.out.println("contarInimigos = " + inimigosComuns);
-        boolean hainimigos = haIninimigosNaDiagonal(mapa);
-        if (hainimigos) {
-            System.out.println("há inimigo na diagonal? sim");
-        } else {
-            System.out.println("há inimigo na diagonal? não");
+            int inimigosComuns = contarInimigos(mapa);
+            System.out.println("contarInimigos = " + inimigosComuns);
+            boolean hainimigos = haIninimigosNaDiagonal(mapa);
+            if (hainimigos) {
+                System.out.println("há inimigo na diagonal? sim");
+            } else {
+                System.out.println("há inimigo na diagonal? não");
+            }
+            int[] v = posicaoDoChefao(mapa);
+            System.out.print("posição do chefão = " + "[ " + v[0] + ", " + v[1] + " ]");
         }
-        int[] v = posicaoDoChefao(mapa);
-        System.out.print("posição do chefão = " + "[ " + v[0] + ", " + v[1] + " ]");
     }
 }

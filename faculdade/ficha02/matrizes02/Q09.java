@@ -37,7 +37,7 @@ public class Q09 {
     }
 
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[][] resultados = {
                 {0, 1, 1, 0},
                 {0, 0, 1, 0},

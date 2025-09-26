@@ -28,7 +28,7 @@ public class Q07 {
         return totalProdutoPorTrimestre;
     }
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double[][] vendas = new double[3][4];
         for (int i = 0; i < vendas.length; i++) {
