@@ -24,10 +24,4 @@ O objetivo é praticar e evoluir no desenvolvimento back-end com **Java**, aplic
 
 ---
 
-## 📂 Estrutura do Repositório
 
-exercicios/
-├── faculdade/ # Exercícios feitos durante aulas da faculdade
-├── beecrowd/ # Questões resolvidas da plataforma Beecrowd
-├── hackerrank/ # Questões resolvidas da HackerRank
-└── README.md # Este arquivo
